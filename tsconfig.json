@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "incremental": true,
+    "outDir": "./dist",
+    "removeComments": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "module": "commonjs",
+    "target": "es2020",
+    "paths": {
+      "@src/*": ["src/*"],
+      "@test/*": ["test/*"]
+    }
+  },
+  "include": ["src/*", "test/*"],
+  "exclude": ["node_modules", "dist"]
+}
