@@ -1,6 +1,5 @@
-import { RequestMergerByField } from "@src/request-merger-by-field";
-import { N1Solver } from "@src/solver";
-import { sleep } from "@test/sleep";
+import { N1Solver, RequestMergerByField } from "../src/index";
+import { sleep } from "./sleep";
 
 describe("N1SolverByField", () => {
   type RunnerArgs = {

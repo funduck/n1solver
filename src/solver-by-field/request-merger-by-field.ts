@@ -1,4 +1,4 @@
-import { Request, RequestGroup, RequestMerger, ResultDispatcher } from "./solver";
+import { Request, RequestGroup, RequestMerger, ResultDispatcher } from "../solver/solver";
 
 type FieldValue = string | number;
 

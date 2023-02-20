@@ -1,6 +1,4 @@
-import { ArgsFieldInArray } from "@src/request-merger-by-field";
-import { N1Solver } from "@src/solver";
-import { N1SolverByField } from "@src/solver-by-field";
+import { ArgsFieldInArray, N1Solver, N1SolverByField } from "../src/index";
 import * as DataLoader from "dataloader";
 
 describe("Benchmark Dataloader (from facebook) vs N1SolverByField", () => {

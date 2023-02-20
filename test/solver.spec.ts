@@ -1,4 +1,4 @@
-import { Request, RequestGroup, N1Solver } from "@src/solver";
+import { Request, RequestGroup, N1Solver } from "../src/index";
 
 describe("Solver", () => {
   type Args = { id: { $in: number[] } };

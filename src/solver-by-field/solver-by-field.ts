@@ -1,5 +1,5 @@
 import { ResultWithField, ArgsFieldValue, RequestMergerByField, ArgsFieldInArray } from "./request-merger-by-field";
-import { N1Solver, RequestRunner } from "./solver";
+import { N1Solver, RequestRunner } from "../solver/solver";
 
 /**
  * Solves N+1 problem for requests by field with some additional filters.
